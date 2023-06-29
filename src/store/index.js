@@ -15,12 +15,12 @@ export default createStore({
   },
   actions: {
     getItems: async (context) => {
-      fetch("http://localhost:3000/items")
+      fetch("https://inamnk28.github.io/data/db.json")
       .then((res) => res.json())
       .then((items) => context.commit("setItems", items))
     },
     getItem: async (context, id) => {
-      fetch("http://localhost:3000/items/" + id)
+      fetch("https://inamnk28.github.io/data/db.json" + id)
       .then((res) => res.json())
       .then((item) => context.commit("setItem", item))
     },
