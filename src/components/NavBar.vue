@@ -20,7 +20,7 @@
                          </li>
                       </ul>
                       <div class="cart">
-                          <button type="button" class="btn btn-primary bg-white border-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img width="20" src="https://img.icons8.com/ios/50/shopping-cart--v1.png" alt="shopping-cart--v1"/></button>
+                          <router-link to="/" ><img width="20" src="https://img.icons8.com/ios/50/shopping-cart--v1.png" alt="shopping-cart--v1"/></router-link>
                       </div>
                    </div>
                 </div>

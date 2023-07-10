@@ -15,12 +15,12 @@ export default createStore({
   },
   actions: {
     getItems: async (context) => {
-      fetch("https://inamnk28.github.io/data/db.json")
+      fetch("https://github.com/inamnk28/ecommerce-practice-vue.io.git")
       .then((res) => res.json())
       .then((items) => context.commit("setItems", items))
     },
     getItem: async (context, id) => {
-      fetch("https://inamnk28.github.io/data/db.json" + id)
+      fetch("https://github.com/inamnk28/ecommerce-practice-vue.io.git/" + id)
       .then((res) => res.json())
       .then((item) => context.commit("setItem", item))
     },
